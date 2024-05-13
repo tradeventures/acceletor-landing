@@ -1,0 +1,41 @@
+.header_container{
+    background-color: #205525;
+    color: #fff;
+}
+
+.header_wrap{
+    display: flex;
+    justify-content: space-between;  
+    margin: 0 250px;
+}
+
+.logo{
+    padding: 15px;
+}
+
+.nav_item{
+    display: flex;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+}
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.apply_btn{
+    margin-left: 50px;
+    width: 130px;
+    height: 46px;
+}
